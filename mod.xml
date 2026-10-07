@@ -1,0 +1,7 @@
+<Mod
+	name="Noita Rewind v5"
+	description="存档回溯（v5 = v4 + 存档落盘改造）。机制：Ctrl+S 先让引擎把这一局真正写进盘（world 区块 + world_state.xml + player.xml），再镜像局内文件；Ctrl+Z 回到存档点（死亡结算界面也有一个「回溯」按钮；按键可在【Mod 设置】里改）。\n与 v3/v4 的差别：① 存档动作改用引擎自己的完整存档路径（v3/v4 只写两个 XML，world 区块不落盘 ⇒ 回溯后会回到上一次真正落盘的状态）；② 存档动作后清『模组集合已改动』闩锁位 0x1154D0C 并看护 300 帧。只动局内文件（player.xml / world_state.xml / world\\**），persistent 与 stats 等跨局数据永不触碰。"
+	request_no_api_restrictions="1"
+	settings_fold_open="1"
+>
+</Mod>

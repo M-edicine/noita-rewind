@@ -1,0 +1,15 @@
+# 运行时文件：这些都不属于 mod 本体，别提交
+rewind_log.txt
+rewind_config.txt
+snap/
+snap_auto/
+*.log
+*.tmp
+pending.txt
+run.txt
+RUN_*.txt
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
